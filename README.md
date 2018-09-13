@@ -16,6 +16,8 @@ Footer - will include links to photos of technology, the library space
 
 ### Wireframes
 
+![Wireframe of US Page](wireframes/upperschool.jpg)
+
 Header - will indicate that this page is devoted to the Upper School
 
 Navigation menu - options will include "research" "new releases" and "upcoming events"
@@ -25,6 +27,8 @@ Main content - will include detailed information regarding each of the above top
 Footer - will include links to research databases available to all students, link to public library, link to Newsela, Edsby
 
 ####  Wireframes
+
+![Wireframe of LS Page](wireframes/lowerschool.jpg)
 
 Header - will indicate that this page is devoted to the Lower School
 
