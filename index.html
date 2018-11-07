@@ -6,33 +6,34 @@
   <meta name="INF 7420 Project" content="INF 7420 Project">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Document</title>
- <link rel="stylesheet"
- href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<header>
+  <header>
     <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="index.html" class="active" >Home</a>
-          </li>
-          <li>
-            <a href="lower-school.html" >Lower School</a>
-          </li>
-          <li>
-            <a href="upper-school.html" >Upper School</a>
-          </li>
-          </ul>
-      </nav>
-</header>
+      <ul>
+        <li>
+          <a href="index.html" class="active">Home</a>
+        </li>
+        <li>
+          <a href="lower-school.html">Lower School</a>
+        </li>
+        <li>
+          <a href="upper-school.html">Upper School</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
+  <main>
+
     <h1>Home</h1>
     <h2>Welcome to the Adelson Educational Campus's Library website.</h2>
+
 
     <figure>
 
@@ -40,11 +41,39 @@
     <img src="images/HomePage.png" alt="Photo of student drawing of library." />"
     <figcaption>1st grader Izzy's artwork</figcaption>
 
-</main>
+  </main>
+  <h2>Have a request or question? Contact us here.</h2>
+  <form action="https://formspree.io/jenmnails@gmail.com" method="POST" data-validate>
+    <div>
 
+      <label for="name">Name
+        <input id="name" type="text" name="name" class="form-input">
+      </label>
+    </div>
 
+    <div>
+      <label for="email">Email
+        <input id="email" type="email" name="_replyto" class="form-input" required>
+      </label>
+    </div>
+
+    <div>
+      <label for="message">Message
+        <textarea id="message" name="message" class="form-input" required></textarea>
+      </label>
+    </div>
+
+    <input type="submit" value="Send">
+  </form>
 
 
 </body>
 
 </html>
+
+
+
+<script src="http://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
+<script>
+  validate.init()
+  </script>
